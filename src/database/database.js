@@ -1,8 +1,11 @@
 import { Sequelize } from "sequelize";
 
 export const sequelize = new Sequelize( 
-    'lifejacket' , 'root' , '',
+    'pruebas' ,
+    'root' ,
+    '',
 {
     host : 'localhost',
     dialect : 'mysql'
 })
+
